@@ -28,8 +28,15 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    background-color: #f3f3f3;
 }
 
 h1,h2,h3{
     font-family: "Lato", sans-serif;
+}
+
+.container{
+    width: 1160px;
+    margin: 0 auto;
+    background-color: #ffffff;
 }
