@@ -151,6 +151,7 @@ footer a i{
 }
 
 footer small{
+    font-style: italic;
     display: block;
     margin-top: 12px;
     font-size: 12px;
