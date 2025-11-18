@@ -40,3 +40,17 @@ h1,h2,h3{
     margin: 0 auto;
     background-color: #ffffff;
 }
+
+header{
+    background-color: #17abb3;
+}
+
+h1{
+    padding-left: 650px;
+    padding-top: 25px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
