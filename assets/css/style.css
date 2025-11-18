@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../css/font/Raleway-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../css/font/Raleway-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../css/font/Raleway-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #f3f3f3;
+}
+
+h1,h2,h3{
+    font-family: "Lato", sans-serif;
+}
+
+.container{
+    width: 1160px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 90px;
+    background-color: #17abb3;
+}
+
+.photo{
+    flex: 0 0 140px;
+}
+
+.photo img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+}
+
+
+.titles{
+    flex: 1;
+    text-align: center;
+    padding-left: 200px;
+}
+
+h1{
+    margin-top: -5px;
+    margin-bottom: 8px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.job{
+    padding-left: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.infos ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 270px;
+    column-gap: 15px;
+    row-gap: 8px;
+    list-style: none;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+.infos li{
+    display: flex ;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.infos a,.infos span{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.infos i{
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+a {
+    font-style: normal;
+}
+
+span{
+    font-style: normal;
+}
+
+
+h2{
+    font-weight: 600;
+    font-size: 22px;
+    color: #17abb3;
+}
+
+h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+footer{
+    text-align: center;
+    padding: 12px;
+    background-color: #17abb3;
+}
+
+footer a{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+footer a i{
+    vertical-align: middle;
+}
+
+footer small{
+    font-style: italic;
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #ffffff;
+}
