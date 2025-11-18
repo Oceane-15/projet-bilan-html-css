@@ -122,6 +122,18 @@ span{
     font-style: normal;
 }
 
+
+h2{
+    font-weight: 600;
+    font-size: 22px;
+    color: #17abb3;
+}
+
+h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+
 footer{
     text-align: center;
     padding: 12px;
