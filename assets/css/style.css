@@ -201,3 +201,24 @@ footer small{
     color: #17abb3;
     font-size: small;
 }
+
+.gauche dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.gauche dt{
+    flex: 0 0 auto;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.gauche dd{
+    flex: 1 0 auto;
+    margin: 0;
+    width: 50%;
+    text-align: right;
+    white-space: nowrap;
+    font-size: 15px;
+}
