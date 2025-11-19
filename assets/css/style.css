@@ -160,12 +160,12 @@ footer small{
 
 .position{
     display: flex;
-    align-items: start;
+    align-items: stretch;
 }
 
 .gauche{
     width: 320px;
-    padding: 90px;
+    padding: 40px 45px;
     box-sizing: border-box;
     background-color: #e3e3e3;
 }
@@ -177,5 +177,10 @@ footer small{
 
 .lign{
     border: 1px solid #d3d3d3;
-    width: 150%;
+    width: 95%;
+    margin: 8px 0px 16px 0px;
+}
+
+.competence{
+    margin-bottom: 30px;
 }
