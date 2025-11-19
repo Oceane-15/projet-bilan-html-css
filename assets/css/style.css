@@ -184,3 +184,19 @@ footer small{
 .competence{
     margin-bottom: 30px;
 }
+
+.niveau{
+    list-style: none;
+}
+
+.niveau li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.etoile{
+    color: #17abb3;
+}
