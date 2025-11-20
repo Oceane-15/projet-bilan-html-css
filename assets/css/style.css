@@ -237,3 +237,15 @@ footer small{
     margin-right: 10px;
 }
 
+.profil{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.profil:last-of-type{
+    margin-bottom: 30px;
+}
+
+
+
+
