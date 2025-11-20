@@ -243,8 +243,27 @@ footer small{
 }
 
 .profil:last-of-type{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.italic{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.date{
+    color: #17abb3;
+}
+
 
 
 
