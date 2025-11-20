@@ -222,3 +222,18 @@ footer small{
     white-space: nowrap;
     font-size: 15px;
 }
+
+.qualites li{
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.qualites li::before{
+    content: "\25AA";
+    color: #17abb3;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
