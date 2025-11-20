@@ -28,7 +28,7 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    background-color: #f3f3f3;
+    background-color: #f5f5f5;
 }
 
 h1,h2,h3{
@@ -157,3 +157,114 @@ footer small{
     font-size: 12px;
     color: #ffffff;
 }
+
+.position{
+    display: flex;
+    align-items: stretch;
+}
+
+.gauche{
+    width: 320px;
+    padding: 40px 45px;
+    box-sizing: border-box;
+    background-color: #e3e3e3;
+}
+
+.droite{
+    flex: 1;
+    padding: 50px 45px;
+}
+
+.lign{
+    border: 1px solid #d3d3d3;
+    width: 95%;
+    margin: 8px 0px 16px 0px;
+}
+
+.competence{
+    margin-bottom: 30px;
+}
+
+.niveau{
+    list-style: none;
+}
+
+.niveau li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.etoile{
+    color: #17abb3;
+    font-size: small;
+}
+
+.gauche dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.gauche dt{
+    flex: 0 0 auto;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.gauche dd{
+    flex: 1 0 auto;
+    margin: 0;
+    width: 50%;
+    text-align: right;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.qualites li{
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.qualites li::before{
+    content: "\25AA";
+    color: #17abb3;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.profil{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.profil:last-of-type{
+    margin-bottom: 20px;
+}
+
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.italic{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.date{
+    color: #17abb3;
+}
+
+
+
+
+
