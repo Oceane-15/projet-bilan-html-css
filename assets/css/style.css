@@ -177,7 +177,7 @@ footer small{
 
 .lign{
     border: 1px solid #d3d3d3;
-    width: 95%;
+    width: 100%;
     margin: 8px 0px 16px 0px;
 }
 
@@ -252,7 +252,6 @@ footer small{
     justify-content: space-between;
     align-items: center; 
     margin-bottom: 20px;
-    margin-right: 40px;
 }
 
 .italic{
