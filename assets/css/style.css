@@ -286,5 +286,9 @@ footer small{
     cursor: zoom-in;
 }
 
+footer a:hover{
+    opacity: 0.8;
+}
+
 
 
