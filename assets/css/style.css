@@ -61,7 +61,6 @@ header{
     border: 4px solid #ffffff;
 }
 
-
 .titles{
     flex: 1;
     text-align: center;
@@ -121,7 +120,6 @@ a {
 span{
     font-style: normal;
 }
-
 
 h2{
     font-weight: 600;
